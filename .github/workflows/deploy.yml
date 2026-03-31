@@ -37,10 +37,18 @@ jobs:
 
       - name: Copy content to template
         run: |
-          cp -r content/* template/
-          # Preserve content directory structure for products
-          mkdir -p template/content
-          cp -r content/content/* template/content/ 2>/dev/null || true
+          # Copy products to the correct path (products.ts reads from content/products/)
+          mkdir -p template/content/products
+          if [ -d content/products ]; then
+            cp -r content/products/. template/content/products/
+          fi
+          # Copy optional index.md for home page customization
+          if [ -f content/index.md ]; then
+            cp content/index.md template/content/index.md
+          fi
+          if [ -f content/coremark.md ]; then
+            cp content/coremark.md template/content/coremark.md
+          fi
 
       - name: Build static site
         working-directory: template
