@@ -53,6 +53,7 @@ jobs:
       - name: Build static site
         working-directory: template
         run: npm run build
+      
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
