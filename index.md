@@ -1,5 +1,5 @@
 ---
-title: PanduSpec
+title: Spec
 subtitle: 灵车产品数据库
 ---
 

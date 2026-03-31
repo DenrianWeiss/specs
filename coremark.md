@@ -11,5 +11,5 @@ description: CPU
 
 | 处理器产品 | 设备 | 架构 | 架构版本 | 核心实现 | 频率 | 编译器 | CoreMark/MHz | CoreMark | 备注 |
 |-----------|--------|--------------|------|-----------|----------|--------------|----------|-------|
-| 飞腾 腾锐 D3000 | 飞腾 腾锐 D3000 | AArch64 | ARMv8.2 | FTC862 | 2.5 GHz | GCC 11.2.0 | 4.85 | 4850 | [处理器](products/phytium-d3000) |
+| 国芯 GX6605s | C-Sky 倚天剑 | C-Sky ISA V1 | - | CK610m | 0.6 GHz | GCC 6.3.0 -O2 | 2.05 | 1231.14 | [c-sky](https://c-sky.github.io/docs/gx6605s.html) |
 
