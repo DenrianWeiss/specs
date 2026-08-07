@@ -15,3 +15,7 @@ description: CPU
 | 矽昌 SF19A2890 | GL.iNet SFT1200 | MIPS | MIPS32r2 | interAptiv | 1.0 GHz | GCC 12.4.0 -O2 | 1.89 | 1889.88 | [Siflower](http://www.siflower.com.cn/products/detail/2) [EN](http://www.siflower.com.cn/en/products/detail/7) |
 | 中兴 ZX211221 | Redacted | AArch64 | ARMv9 | Neoverse N2 | 3.0GHz | GCC 15.2.0 -O2 | 10.44 | 31320 | [ZXIC](https://www.sanechips.com.cn/chinese/product/suanlichanpin/zhufeng/index.html) |
 | 鼎道智芯 SS1101 | 联想 TB571FU | AArch64 | ARMv9 | Cortex X3 | 3.29GHz | Clang 15.0.7 -O2 | 10.05 | 33090 | [SS1101](/product/smartersilicon-ss1101) |
+| Centriq 2452 | Centriq 2400 REP | AArch64 | ARMv8 | Falkor | 2.6 GHz | GCC 14.2.0 -O2 -march=native | 7.34 | 19074.26 | - |
+| UltraSparc IIIi | Sun Ultra 45 | sparc64 | UltraSparc III | Jalapeno | 1.6 GHz | GCC7.3.0 -O3 -march=native | 3.13 | 5003.1 | - |
+| 银河飞腾 FT-1000A | - | sparc64 | - | - | 1.0 GHz | GCC 13.3.0 -O3 -march=niagara | 1.2 | 1282.39 | - | GCC 4.4.3 -O2: 899 @ 1.0 GHz |
+| 银河飞腾 FT-1000 | - | sparc64 | - | - | 1.0 GHz | GCC 14.2.0 -O3 -march=niagara2 | 1.36 | 1282.39 | - | On Linux 6.12 |
