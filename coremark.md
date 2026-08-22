@@ -20,3 +20,4 @@ description: CPU
 | 银河飞腾 FT-1000A | - | sparc64 | - | - | 1.0 GHz | GCC 13.3.0 -O3 -march=niagara | 1.2 | 1282.39 | GCC 4.4.3 -O2: 899 @ 1.0 GHz |
 | 银河飞腾 FT-1000 | - | sparc64 | - | - | 0.8 GHz | GCC 14.2.0 -O3 -march=niagara2 | 1.36 | 1282.39 | On Linux 6.12 |
 | 芯昇 XS7200 | 大华 IPC | C-Sky ISA V2 | - | CK810MF | 0.617 GHz | GCC 6.3.0 -O2 | 3.12 | 1928.39 | 摄像头：你肘不过我你信吗 |
+| STMicro STi7105 | NextVOD | SH4 | - | - | 0.45 GHz | GCC14.2.0 -O2 | 0.88 | 398.30 | 给到一个拉完了 |
